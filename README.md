@@ -50,7 +50,6 @@ spring.datasource.druid.StatViewServlet.loginPassword=
 spring.datasource.druid.StatViewServlet.allow=
 spring.datasource.druid.StatViewServlet.deny=
 
-
 #如果spring.datasource.druid.aop-patterns要代理的类没有定义interface请设置spring.aop.proxy-target-class=true
 
 ```
