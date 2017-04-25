@@ -1,4 +1,4 @@
-package com.github.lihengming.autoconfigure;
+package com.alibaba.druid.spring.boot.autoconfigure;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

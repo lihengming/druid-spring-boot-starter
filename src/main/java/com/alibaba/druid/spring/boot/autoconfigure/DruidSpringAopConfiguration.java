@@ -1,4 +1,4 @@
-package com.github.lihengming.autoconfigure;
+package com.alibaba.druid.spring.boot.autoconfigure;
 
 import com.alibaba.druid.support.spring.stat.DruidStatInterceptor;
 import org.aopalliance.aop.Advice;

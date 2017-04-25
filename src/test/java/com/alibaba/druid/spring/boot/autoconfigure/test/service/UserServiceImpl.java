@@ -1,7 +1,7 @@
-package com.github.lihengming.autoconfigure.test.service;
+package com.alibaba.druid.spring.boot.autoconfigure.test.service;
 
-import com.github.lihengming.autoconfigure.test.dao.UserDao;
-import com.github.lihengming.autoconfigure.test.model.User;
+import com.alibaba.druid.spring.boot.autoconfigure.test.dao.UserDao;
+import com.alibaba.druid.spring.boot.autoconfigure.test.model.User;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.github.lihengming.autoconfigure.test;
+package com.alibaba.druid.spring.boot.autoconfigure.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

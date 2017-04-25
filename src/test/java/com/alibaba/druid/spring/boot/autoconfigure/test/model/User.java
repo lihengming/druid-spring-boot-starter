@@ -1,4 +1,4 @@
-package com.github.lihengming.autoconfigure.test.model;
+package com.alibaba.druid.spring.boot.autoconfigure.test.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

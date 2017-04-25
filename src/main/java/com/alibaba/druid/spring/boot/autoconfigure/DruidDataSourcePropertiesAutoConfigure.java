@@ -1,4 +1,4 @@
-package com.github.lihengming.autoconfigure;
+package com.alibaba.druid.spring.boot.autoconfigure;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
