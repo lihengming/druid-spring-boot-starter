@@ -54,7 +54,8 @@ spring.datasource.druid.StatViewServlet.deny=
 #如果spring.datasource.druid.aop-patterns要代理的类没有定义interface请设置spring.aop.proxy-target-class=true
 
 ```
-
+### 使用演示
+克隆项目，运行```test```包内的```Application.java```
 ### 参考
 [Druid Wiki](https://github.com/alibaba/druid/wiki/%E9%A6%96%E9%A1%B5)
 
