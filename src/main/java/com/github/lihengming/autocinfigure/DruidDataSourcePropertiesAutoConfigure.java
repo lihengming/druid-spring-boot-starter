@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Import;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
+
 /**
  * @author lihengming<89921218@qq.com>
  */
@@ -66,12 +67,10 @@ public class DruidDataSourcePropertiesAutoConfigure {
         if (properties.getMaxPoolPreparedStatementPerConnectionSize() != null) {
             datasource.setMaxPoolPreparedStatementPerConnectionSize(properties.getMaxPoolPreparedStatementPerConnectionSize());
         }
-        if (properties.getFilters() != null) {
-            try {
-                datasource.setFilters(properties.getFilters());
-            } catch (SQLException e) {
-                throw new IllegalArgumentException("please check your spring.datasource.druid.filters property.", e);
-            }
+        try {
+            datasource.setFilters(properties.getFilters() != null ? properties.getFilters() : "stat");
+        } catch (SQLException e) {
+            throw new IllegalArgumentException("please check your spring.datasource.druid.filters property.", e);
         }
     }
 }
