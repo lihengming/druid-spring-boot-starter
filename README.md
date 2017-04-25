@@ -5,7 +5,7 @@
 Druid作为最好的数据库连接池并未获得Spring 官方的默认支持(目前Spring Boot中默认支持的连接池有dbcp,dbcp2, tomcat, hikari三种连接池)导致Druid连接池配置并不能生效，故开发Druid Spring Boot Starter供使用，使在Spring Boot中使用Druid数据库连接池和监控更为简单。
 
 ### 如何使用
-(1) ```git clone``` (2) ```mvn:install``` (3) 引入```Maven```依赖 (4)按需配置```application.properties```，使用默认配置忽略此步
+(1) ```git clone``` (2) ```mvn:install``` (3) 引入```Maven```依赖 (4) 按需配置```application.properties```，使用默认配置忽略此步
 
 注：待上传中央仓库提供\<dependency/\>
 ### 配置项
