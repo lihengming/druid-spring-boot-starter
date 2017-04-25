@@ -5,6 +5,12 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
+/**
+ * The Druid stat filter configuration.
+ *
+ * @author lihengming< qq.com>
+ * @see <a href="https://github.com/alibaba/druid/wiki/%E9%85%8D%E7%BD%AE_%E9%85%8D%E7%BD%AEWebStatFilter">配置WebStatFilter</a>
+ */
 @ConditionalOnProperty(name = "spring.datasource.druid.StatFilter.enabled", havingValue = "true", matchIfMissing = true)
 public class DruidStatFilterConfiguration {
     @Bean

@@ -4,6 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * @author lihengming<89921218@qq.com>
+ * @see <a href="https://github.com/alibaba/druid/wiki/%E9%85%8D%E7%BD%AE_DruidDataSource%E5%8F%82%E8%80%83%E9%85%8D%E7%BD%AE">DruidDataSource参考配置</a>
  */
 @ConfigurationProperties("spring.datasource.druid")
 public class DruidProperties{
@@ -153,6 +154,9 @@ public class DruidProperties{
         this.statFilter = statFilter;
     }
 
+    /**
+     * @see <a href="https://github.com/alibaba/druid/wiki/%E9%85%8D%E7%BD%AE_StatViewServlet%E9%85%8D%E7%BD%AE">StatViewServlet配置</a>
+     */
     public static class StatViewServlet{
         private String urlPattern;
         private String allow;
@@ -210,6 +214,9 @@ public class DruidProperties{
         }
     }
 
+    /**
+     * @see <a href="https://github.com/alibaba/druid/wiki/%E9%85%8D%E7%BD%AE_%E9%85%8D%E7%BD%AEWebStatFilter">配置WebStatFilter</a>
+     */
     public static class StatFilter{
         private String urlPattern;
         private String exclusions;

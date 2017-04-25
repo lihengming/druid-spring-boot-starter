@@ -11,7 +11,9 @@ import org.springframework.context.annotation.Import;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
-
+/**
+ * @author lihengming<89921218@qq.com>
+ */
 @Configuration
 @ConditionalOnClass(com.alibaba.druid.pool.DruidDataSource.class)
 @EnableConfigurationProperties(DruidProperties.class)
