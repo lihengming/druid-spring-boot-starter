@@ -1,4 +1,4 @@
-package com.github.lihengming.autocinfigure;
+package com.github.lihengming.autoconfigure;
 
 import com.alibaba.druid.support.http.StatViewServlet;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

@@ -1,4 +1,4 @@
-package com.github.lihengming.autocinfigure;
+package com.github.lihengming.autoconfigure;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -1,7 +1,7 @@
-package com.github.lihengming.test.service;
+package com.github.lihengming.autoconfigure.test.service;
 
-import com.github.lihengming.test.dao.UserDao;
-import com.github.lihengming.test.model.User;
+import com.github.lihengming.autoconfigure.test.dao.UserDao;
+import com.github.lihengming.autoconfigure.test.model.User;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

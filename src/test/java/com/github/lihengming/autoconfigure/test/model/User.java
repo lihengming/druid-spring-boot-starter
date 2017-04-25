@@ -1,4 +1,4 @@
-package com.github.lihengming.test.model;
+package com.github.lihengming.autoconfigure.test.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,7 +1,7 @@
-package com.github.lihengming.test.web;
+package com.github.lihengming.autoconfigure.test.web;
 
-import com.github.lihengming.test.model.User;
-import com.github.lihengming.test.service.UserService;
+import com.github.lihengming.autoconfigure.test.model.User;
+import com.github.lihengming.autoconfigure.test.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

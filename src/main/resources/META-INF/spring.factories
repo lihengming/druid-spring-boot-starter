@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.github.lihengming.autocinfigure.DruidDataSourcePropertiesAutoConfigure
+com.github.lihengming.autoconfigure.DruidDataSourcePropertiesAutoConfigure
