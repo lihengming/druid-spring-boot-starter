@@ -60,5 +60,4 @@ spring.datasource.druid.StatViewServlet.deny=
 
 [Spring Boot Reference](http://docs.spring.io/spring-boot/docs/1.5.1.RELEASE/reference/html/)
 
-[快速开发一个自定义Spring Boot Starter，并使用它。](http://www.jianshu.com/p/45538b44e04e)
 
