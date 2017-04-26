@@ -20,7 +20,7 @@ spring.datasource.driver-class-name=
 spring.datasource.druid.StatViewServlet.enabled= #是否启用StatViewServlet默认值true
 spring.datasource.druid.StatFilter.enabled= #是否启用StatFilter默认值true
 spring.datasource.druid.filters= #默认值为stat，配置多个请以英文逗号分隔，如stat,wall,log4j
-spring.datasource.druid.aop-patterns= #Spring监控AOP切入点，如x.y.z.service.*,配置多个英文逗号分隔
+spring.datasource.druid.aop-patterns= #配置AOP切入点来启用Spring监控，配置多个以英文逗号分隔，如x.y.z.dao.*,x.y.z.service.*
 #下面配置项说明请参考Druid Wiki，配置_DruidDataSource参考配置
 spring.datasource.druid.initialSize=
 spring.datasource.druid.minIdle=
